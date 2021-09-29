@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title> CSS WEBSITE LAYOUT </title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<div class="field-nav">
+
+<div class="header">
+	<h1> OUR LATEST PROJECTS </h1>
+	<h2> Style up Your Bussiness Strategy </h2>
+</div>
+
+<div class="topnav">
+		<a href="#"> ABOUT ME </a>
+		<a href="#"> CONTACT ME </a>
+		<a href="#"> SKILLS</a>
+		<a href="#"> SOCIAL MEDIA</a>
+	</div>	
+</div>
+
+<div>
+	<img src="design.jpg" alt="" class="banner">
+</div>
+
+<div class="row">
+		<div class="column">
+			<div>
+	<img src="laptop2.jpg" alt="" class="banner1">
+</div>
+			<h1> LATEST 1 </h1>
+			<p>
+				Web Design atau perencanaan web merupakan istilah umum yang digunakan
+				untuk mencakup bagaimana isi konten dalam web yang ditampilkan.
+				Biasanya berupa hypertext atau hypermedia. Kedua konten
+				tersebut dikirimkan ke pengguna akhir melalui worl wide web.
+				Konten ini menggunakan sebuah browser web atau perangkat lunak
+				berbasis web.
+			</p>
+		</div>
+
+		<div class="column">
+			<div>
+	<img src="website.jpg" alt="" class="banner2">
+</div>
+			<h1> LATEST 2 </h1>
+			<p>
+				Design project Indonesia didirikan untuk memenuhi
+				kebutuhan Perusahaan/Costumer dalam penyediaan perancangan website, 
+				e-Commerce share informasi secara cepat, efektif dan efisien. 
+				Design Project Indonesia memberikan nilai lebih, kemudahan dan
+				fasilitas kepada anda. Free Maintenance Website (Bebas Biaya 
+				Pemeliharaan & Kerusakan) selama satu tahun & konsultasi, pengarahan
+				website kepada member yang telah bergabung bersama kami.
+			</p>
+		</div>
+
+		<div class="column">
+			<div>
+	<img src="web.jpg" alt="" class="banner3">
+</div>
+			<h1> LATEST 3 </h1>
+			<p>
+				Web developer, web adalah sekumpulan informasi yang dapat
+				diakses melalui jaringan internet. Web developer, atau pengembang
+				web, adalah seorang programmer yang bekerja untuk mengembangkan dan
+				menjaga halaman web ataupun aplikasi berbasis web. Tugas web
+				developer harus membuat pembangunan sebuah situs web. Dalam
+				mengembangkan website, sang developer bakal duduk bareng dengan
+				tim lain seperti UI/UX designer, product management, dan lain-lain
+				untuk merancang dan merencanakan website seperti apa sih
+				rancangan yang akan dibuat.
+			</p>
+		</div>
+	</div>
+
+	<div class="footer">
+		<p> Copyright @ratri-pramuditaningsih.com edited By Ratri Pramuditaningsih </p>
+	</div>
+</body>
+<html>
