@@ -1,0 +1,103 @@
+.header {
+	background-color: #48D1CC;
+	padding: 10px;
+	text-align: center;
+	color: black;
+	text-transform: uppercase;
+
+}
+
+.header>h1{
+	font-family: 'Georgia';
+}
+
+.header>h2{
+	text-transform: lowercase;
+
+}
+
+.topnav {
+	overflow: hidden;
+	background-color: #AFEEEE;
+}
+
+.topnav a {
+	float: left;
+	display: black;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 24px;
+}
+
+.topnav a:hover {
+	background-color: white;
+	color: brown;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	color: both;
+}
+
+.column {
+	float: left;
+	width: 31.33%;
+	padding: 15px;
+	text-align: justify;
+}
+
+.footer {
+	background-color: #48D1CC;
+	padding: 18px;
+	text-align: center;
+}
+
+.footer p:hover {
+	background-color: white;
+	color: #48D1CC;
+}
+
+img {
+	width: 1200px;
+	height: 400px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 60px;
+}
+
+.banner {
+	background-color: white;
+	padding: 10px;
+	margin-top: 159px;
+}
+
+.fixed-nav {
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 100px;
+}
+
+@media screen and (max-width: 800px) {
+	.column, .column2, .column3 {
+	width: 100%;
+	paadding: 10px;
+	}
+}
+@media screen and (max-width: 400px) {
+	.topnav a {
+		float: 0px;
+		width: 100px;
+	}
+	img {
+		width: 300px;
+		height: 90;
+	}	
+	.banner {
+		margin-top: 272px;
+	}
+}
